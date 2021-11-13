@@ -2,15 +2,15 @@ html,
 body {
   margin: 0;
   font-family: "Roboto";
-  color: #432d17;
+  color: #dadce0;
 
-  background: #be9770;
+  background: #35363a;
 }
 
 /* header */
 .topnav {
   overflow: hidden;
-  background-color: #ab6636;
+  background-color: #445760;
 }
 
 .topnav a {
@@ -24,12 +24,12 @@ body {
 }
 
 .topnav a:hover {
-  background-color: #bd7847;
+  background-color: #697f8a;
   color: #ffffff;
 }
 
 .topnav a.active {
-  background-color: #88522b;
+  background-color: #2f3c42;
   color: white;
 }
 
@@ -57,7 +57,7 @@ body {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #ab6636;
+  background-color: #445760;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -74,12 +74,12 @@ body {
 
 .topnav a:hover,
 .dropdown:hover .dropbtn {
-  background-color: #bd7847;
+  background-color: #697f8a;
   color: #ffffff;
 }
 
 .dropdown-content a:hover {
-  background-color: #bd7847;
+  background-color: #697f8a;
   color: #ffffff;
 }
 
@@ -96,7 +96,7 @@ footer {
   font-size: 12px;
   text-align: center;
 
-  color: #462d17;
+  color: #dadce0;
 }
 
 footer a {
@@ -110,7 +110,7 @@ footer a:link,
 footer a:visited,
 footer a:hover,
 footer a:active {
-  color: #462d17;
+  color: #dadce0;
 }
 
 /* responsive */
